@@ -1,0 +1,8 @@
+<h1>We played rock! </h1>
+<% if @die == 1 %>
+  <p style="color: red"><%= @outcome %></p>
+<% elsif @die == 2 %>
+  <p style="color: green"><%= @outcome %></p>
+<% else %>
+  <p><%= @outcome %></p>
+<% end %>
